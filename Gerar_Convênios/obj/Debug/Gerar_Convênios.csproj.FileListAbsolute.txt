@@ -1,0 +1,15 @@
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\bin\Debug\Gerar_Convênios.exe.config
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\bin\Debug\Gerar_Convênios.exe
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\bin\Debug\Gerar_Convênios.pdb
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios.csprojAssemblyReference.cache
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\MainWindow.g.cs
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\App.g.cs
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios_MarkupCompile.cache
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios_MarkupCompile.lref
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\MainWindow.baml
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios.g.resources
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios.Properties.Resources.resources
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios.csproj.GenerateResource.cache
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios.csproj.CoreCompileInputs.cache
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios.exe
+C:\Users\laura\Documents\Telas DS\Gerar_Convênios\obj\Debug\Gerar_Convênios.pdb
