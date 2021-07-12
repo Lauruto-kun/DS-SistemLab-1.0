@@ -1,0 +1,42 @@
+﻿<Window x:Class="Exibir_Resultados.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Exibir_Resultados"
+        mc:Ignorable="d"
+        Title="Lista de Resultados" Height="450" Width="800" WindowStartupLocation="CenterScreen" ResizeMode="NoResize" 
+        Background="#FFC9C9C9">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" FontSize="30" Background="Gainsboro" 
+                   Padding="10 13 10 0" TextDecorations="Underline" FontWeight="Bold" FontFamily="Arial" TextAlignment="Center"><Run Text="Lista dos Pacientes e Resultados"/></TextBlock>
+
+        <ComboBox Name="cmbLista" HorizontalAlignment="Left" VerticalAlignment="Top" Width="568" Margin="113,39,0,0" 
+                  Grid.Row="1" Height="27" FontSize="14">
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Nome: Ianny Jamilly Martins
+                Exame: Urina Resultado: xxx</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Nome: Paulo Ricardo Martins 
+                Exame: Urina Resultado: xxx</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Nome: Gabriel Azevedo de Siqueira 
+                Exame: Hemograma Resultado: xxx</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Nome: Josefa de Azevedo Filho 
+                Exame: Glicose Resultado: xxx</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Nome: Ellen Vitória Cleres 
+                Exame: Colesterol Resultado: xxx</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Nome: Vincenzo Cassano 
+                Exame: Parasitologico Resultado: xxx</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Nome: Katsuki Bakugou 
+                Exame: Hemograma Resultado: xxx</ComboBoxItem>
+        </ComboBox>
+
+        <Button Name="btnImprimir" Content="Imprimir Resultado" HorizontalAlignment="Left" VerticalAlignment="Top" Width="206" 
+                Margin="562,287,0,0" Grid.Row="1" Height="44" Background="#FFDDDDDD" FontFamily="Arial" FontSize="14" 
+                Click="btnImprimir_Click"/>
+
+    </Grid>
+</Window>

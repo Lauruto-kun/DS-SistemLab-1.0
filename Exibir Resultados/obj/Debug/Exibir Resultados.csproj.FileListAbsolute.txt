@@ -1,0 +1,15 @@
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir Resultados.csprojAssemblyReference.cache
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\MainWindow.g.cs
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\App.g.cs
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir Resultados_MarkupCompile.cache
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir Resultados_MarkupCompile.lref
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\bin\Debug\Exibir Resultados.exe.config
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\bin\Debug\Exibir Resultados.exe
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\bin\Debug\Exibir Resultados.pdb
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\MainWindow.baml
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir Resultados.g.resources
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir_Resultados.Properties.Resources.resources
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir Resultados.csproj.GenerateResource.cache
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir Resultados.csproj.CoreCompileInputs.cache
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir Resultados.exe
+C:\Users\keren\Documents\IFRO\Desenvolvimento de Sistemas\Lab\Exibir Resultados\obj\Debug\Exibir Resultados.pdb
