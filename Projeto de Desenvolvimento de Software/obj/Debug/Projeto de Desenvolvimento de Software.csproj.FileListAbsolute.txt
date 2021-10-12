@@ -16,3 +16,12 @@ C:\Projeto PDS\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desen
 C:\Projeto PDS\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software_Content.g.cs
 C:\Projeto PDS\Projeto de Desenvolvimento de Software\obj\Debug\Realiza Pedidos.g.cs
 C:\Projeto PDS\Projeto de Desenvolvimento de Software\obj\Debug\Realiza Pedidos.baml
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.AssemblyReference.cache
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\MainWindow.g.cs
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Realiza Pedidos.g.cs
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\App.g.cs
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software_Content.g.cs
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software_MarkupCompile.cache
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software_MarkupCompile.lref
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.exe
+C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.pdb

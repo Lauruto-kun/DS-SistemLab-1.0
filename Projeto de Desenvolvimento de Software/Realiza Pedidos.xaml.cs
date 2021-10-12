@@ -64,5 +64,10 @@ namespace Projeto_de_Desenvolvimento_de_Software
         {
 
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }
