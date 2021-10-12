@@ -5,7 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
-namespace Projeto_de_Desenvolvimento_de_Software.Conexão
+namespace Projeto_de_Desenvolvimento_de_Software.Database
 {
   public  class Conexão
     {

@@ -98,7 +98,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Models\Conexão.cs" />
+    <Compile Include="DataBase\Conexão.cs" />
     <Compile Include="Models\Pedidos.cs" />
     <Compile Include="Realiza Pedidos.xaml.cs">
       <DependentUpon>Realiza Pedidos.xaml</DependentUpon>
@@ -154,8 +154,6 @@
     <Content Include="download.jfif" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="DataBase\" />
-    <Folder Include="objeto\" />
     <Folder Include="Views\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
