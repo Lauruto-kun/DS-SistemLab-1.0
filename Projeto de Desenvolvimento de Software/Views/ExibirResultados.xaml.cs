@@ -15,28 +15,25 @@ using System.Windows.Shapes;
 namespace Projeto_de_Desenvolvimento_de_Software.Views
 {
     /// <summary>
-    /// Lógica interna para Login.xaml
+    /// Lógica interna para ExibirResultados.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class ExibirResultados : Window
     {
-        public Login()
+        public ExibirResultados()
         {
             InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        private void cmbLista_SelectionChanged(object sender, SelectionChangedEventArgs e)
         {
-            MessageBox.Show("Login Realizado com sucesso!");
+
         }
 
-        private void btnSair_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Login Cancelado");
-        }
 
-        private void txtLogin_TextChanged(object sender, TextChangedEventArgs e)
+        private void btnImprimir_Click(object sender, RoutedEventArgs e)
         {
-
+            MessageBoxResult result = MessageBox.Show($"Não Atribuído", "Imprimir Resultados",
+                MessageBoxButton.OK, MessageBoxImage.Error);
         }
     }
 }

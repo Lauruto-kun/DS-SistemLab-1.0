@@ -108,8 +108,20 @@
     <Compile Include="Models\Pedidos_medicosDAO.cs" />
     <Compile Include="Models\Pedidos_Pacientes.cs" />
     <Compile Include="Models\Pedidos_PacientesDAO.cs" />
-    <Compile Include="Orcamento.xaml.cs">
-      <DependentUpon>Orcamento.xaml</DependentUpon>
+    <Compile Include="Views\CadastrarFuncionario.xaml.cs">
+      <DependentUpon>CadastrarFuncionario.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExibirExame.xaml.cs">
+      <DependentUpon>ExibirExame.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\ExibirResultados.xaml.cs">
+      <DependentUpon>ExibirResultados.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\GerarConvenio.xaml.cs">
+      <DependentUpon>GerarConvenio.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Views\Orcament.xaml.cs">
+      <DependentUpon>Orcament.xaml</DependentUpon>
     </Compile>
     <Compile Include="Views\Login.xaml.cs">
       <DependentUpon>Login.xaml</DependentUpon>
@@ -121,7 +133,23 @@
       <DependentUpon>App.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Orcamento.xaml">
+    <Page Include="Views\CadastrarFuncionario.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExibirExame.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\ExibirResultados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\GerarConvenio.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views\Orcament.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -162,10 +190,6 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-  </ItemGroup>
-  <ItemGroup>
-    <Content Include="download %281%29.jfif" />
-    <Content Include="download.jfif" />
   </ItemGroup>
   <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

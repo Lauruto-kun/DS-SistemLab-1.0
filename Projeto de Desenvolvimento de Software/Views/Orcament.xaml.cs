@@ -15,21 +15,26 @@ using Projeto_de_Desenvolvimento_de_Software.Database;
 using Projeto_de_Desenvolvimento_de_Software.Interface;
 using Projeto_de_Desenvolvimento_de_Software.Models;
 
-
 namespace Projeto_de_Desenvolvimento_de_Software.Views
 {
     /// <summary>
-    /// Lógica interna para Orcamento.xaml
+    /// Lógica interna para Orcament.xaml
     /// </summary>
-    public partial class Orcamento : Window
+    public partial class Orcament : Window
     {
-        public Orcamento()
+        public Orcament()
         {
-            InitializeComponent();
+            InitializeComponente();
             Loaded += MainWindow_Loaded;
+
         }
 
-        private void InitializeComponent()
+        private void desconto_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void InitializeComponente()
         {
             throw new NotImplementedException();
         }
@@ -131,11 +136,6 @@ namespace Projeto_de_Desenvolvimento_de_Software.Views
 
         }
 
-        private void desconto_TextChanged(object sender, TextChangedEventArgs e)
-        {
-
-        }
-
         private void total_TextChanged(object sender, TextChangedEventArgs e)
         {
 
@@ -187,6 +187,5 @@ namespace Projeto_de_Desenvolvimento_de_Software.Views
                 MessageBox.Show(ex.Message, "Não Executado", MessageBoxButton.OK, MessageBoxImage.Error); ;
             }
         }
-
     }
 }

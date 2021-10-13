@@ -15,26 +15,31 @@ using System.Windows.Shapes;
 namespace Projeto_de_Desenvolvimento_de_Software.Views
 {
     /// <summary>
-    /// Lógica interna para Login.xaml
+    /// Lógica interna para GerarConvenio.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class GerarConvenio : Window
     {
-        public Login()
+        public GerarConvenio()
         {
             InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        private void Cobrança_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Login Realizado com sucesso!");
+            MessageBox.Show("Convênio enviado para cobrança!");
         }
 
-        private void btnSair_Click(object sender, RoutedEventArgs e)
+        private void Sair_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Login Cancelado");
+            MessageBox.Show("Finalizar Convênio");
         }
 
-        private void txtLogin_TextChanged(object sender, TextChangedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }

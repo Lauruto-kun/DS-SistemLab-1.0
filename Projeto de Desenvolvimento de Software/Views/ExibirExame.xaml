@@ -1,0 +1,31 @@
+﻿<Window x:Class="Projeto_de_Desenvolvimento_de_Software.Views.ExibirExame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Projeto_de_Desenvolvimento_de_Software.Views"
+        mc:Ignorable="d"
+        Title="ExibirExame" Height="450"  Width="500"
+        WindowStartupLocation="CenterScreen" ResizeMode="NoResize" Background="#FFC9C9C9">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="60"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Lista de Exames" FontSize="30" Background="Gainsboro" 
+                   Padding="10 13 10 0" TextDecorations="Underline" FontWeight="Bold" FontFamily="Arial" TextAlignment="Center"/>
+        <ComboBox Name="cmbLista" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Margin="30,26,0,0" 
+                  Grid.Row="1" Height="34" FontSize="14" SelectionChanged="cmbLista_SelectionChanged">
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Hemograma</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Urina</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Parasitologico</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Glicose</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Beta</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Colesterol</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Transaminases(ALT e AST)</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Ureia e Creatinina</ComboBoxItem>
+        </ComboBox>
+        <Button Name="btnSelecionar" Content="Selecionar" HorizontalAlignment="Left" VerticalAlignment="Top" Width="118" Margin="341,26,0,0" Grid.Row="1" Height="34" Background="#FFDDDDDD" FontFamily="Arial" FontSize="14" Click="btnSelecionar_Click"/>
+
+    </Grid>
+</Window>

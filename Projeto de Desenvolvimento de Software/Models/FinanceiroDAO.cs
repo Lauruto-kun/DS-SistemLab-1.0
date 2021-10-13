@@ -5,6 +5,8 @@ using System.Text;
 using System.Threading.Tasks;
 using Projeto_de_Desenvolvimento_de_Software.Interface;
 using Projeto_de_Desenvolvimento_de_Software.Database;
+using Projeto_de_Desenvolvimento_de_Software.Models;
+
 namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
     class FinanceiroDAO : IDAO<Financeiro>
@@ -62,13 +64,5 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
         }
     }
 
-        public List<Financeiro> List()
-        {
-            throw new NotImplementedException();
-        }
-
-        public void Update(Financeiro t)
-        {
-            throw new NotImplementedException();
-        }
-    }
+      
+}

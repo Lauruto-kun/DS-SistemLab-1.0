@@ -15,26 +15,21 @@ using System.Windows.Shapes;
 namespace Projeto_de_Desenvolvimento_de_Software.Views
 {
     /// <summary>
-    /// Lógica interna para Login.xaml
+    /// Lógica interna para CadastrarFuncionario.xaml
     /// </summary>
-    public partial class Login : Window
+    public partial class CadastrarFuncionario : Window
     {
-        public Login()
+        public CadastrarFuncionario()
         {
             InitializeComponent();
         }
 
-        private void btnLogin_Click(object sender, RoutedEventArgs e)
+        private void Button_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show("Login Realizado com sucesso!");
+            MessageBox.Show("Cadastro Realizado com Sucesso!");
         }
 
-        private void btnSair_Click(object sender, RoutedEventArgs e)
-        {
-            MessageBox.Show("Login Cancelado");
-        }
-
-        private void txtLogin_TextChanged(object sender, TextChangedEventArgs e)
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
         {
 
         }

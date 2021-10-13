@@ -8,7 +8,6 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-[assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("download%20(1).jfif")]
 [assembly: System.Windows.Resources.AssemblyAssociatedContentFileAttribute("download.jfif")]
 
 
