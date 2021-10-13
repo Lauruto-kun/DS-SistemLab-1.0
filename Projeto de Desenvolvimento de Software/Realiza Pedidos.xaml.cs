@@ -11,6 +11,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Projeto_de_Desenvolvimento_de_Software.Database;
 
 namespace Projeto_de_Desenvolvimento_de_Software
 {
@@ -23,6 +24,8 @@ namespace Projeto_de_Desenvolvimento_de_Software
         {
             InitializeComponent();
             Loaded += Realiza_Pedidos_Loaded;
+            
+
         }
 
         private void Realiza_Pedidos_Loaded(object sender, RoutedEventArgs e)
@@ -32,21 +35,14 @@ namespace Projeto_de_Desenvolvimento_de_Software
             {
                 listaVendas.Add(new Realiza_Pedidos()
                 {
-                    medico = 1 + i,
-                    Exames = "Beta" + i,
-                    Descricao = "Exame de Grávidez",
-                    UN = "UN",
-                    quant = 02 * i,
-                    Desconto = 10,
-                    Preco = 15.50 * i,
-                    Total= 15.59-10-(2*i)
+                    
 
                 }
            );
 
 
             }
-            Datagrid.ItemsSource = listaVendas;
+            
 
         }
 

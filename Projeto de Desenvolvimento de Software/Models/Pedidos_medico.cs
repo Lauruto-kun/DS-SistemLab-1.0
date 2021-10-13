@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
-    public class Pedidos
+    public class Pedidos_medico
     {
-        public string paciente { get; set; }
+        public int Id_ped_med { get; set; }
 
-        public string medico { get; set; }
+        public int Id_med_fk { get; set; }
 
-        public string exame { get; set; }
+        public int Id_ped_fk { get; set; }
 
 
     }

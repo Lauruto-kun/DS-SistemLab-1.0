@@ -2,8 +2,9 @@
 using System.Windows;
 using System.Windows.Controls;
 using Projeto_de_Desenvolvimento_de_Software.Models;
-using Projeto_de_Desenvolvimento_de_Software.Conexão;
+using Projeto_de_Desenvolvimento_de_Software.Database;
 using Projeto_Fârmacia_PDS_.Models;
+using System;
 
 namespace Projeto_de_Desenvolvimento_de_Software
 {
@@ -22,6 +23,11 @@ namespace Projeto_de_Desenvolvimento_de_Software
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
+            
+            
+                var conexao = new Conexão();
+            
+
             List<Venda> listaVendas = new List<Venda>();
             for (int i = 0; i < 100; i++)
             {
@@ -89,7 +95,7 @@ namespace Projeto_de_Desenvolvimento_de_Software
 
         private void Salvar_Copy3_Click(object sender, RoutedEventArgs e)
         {
-
+            Insert_Teste();
         }
 
         private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
@@ -146,5 +152,27 @@ namespace Projeto_de_Desenvolvimento_de_Software
         {
 
         }
+
+        private void Insert_Teste()
+        {
+            try
+            {
+                Pedidos_Pacientes pedidos_pacientes = new Pedidos_Pacientes();
+
+                pedidos_pacientes.Descricao_ped = "Qualquer coisa";
+                pedidos_pacientes.Id_pa_fk = 1;
+                pedidos_pacientes.Tipo_ped = "O+";
+
+                Pedidos_PacientesDAO pedidos_pacientesDAO = new Pedidos_PacientesDAO();
+                pedidos_pacientesDAO.Insert(pedidos_pacientes);
+
+                MessageBox.Show("O pedido do paciente foi realizado com sucesso!!");
+            }
+            catch(Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Não Executado", MessageBoxButton.OK, MessageBoxImage.Error); ;
+            }
+        }
+        
     }
 }

@@ -99,7 +99,15 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="DataBase\Conexão.cs" />
-    <Compile Include="Models\Pedidos.cs" />
+    <Compile Include="Interface\IDAO.cs" />
+    <Compile Include="Models\Faturamento.cs" />
+    <Compile Include="Models\FaturamentoDAO.cs" />
+    <Compile Include="Models\Financeiro.cs" />
+    <Compile Include="Models\FinanceiroDAO.cs" />
+    <Compile Include="Models\Pedidos_medico.cs" />
+    <Compile Include="Models\Pedidos_medicosDAO.cs" />
+    <Compile Include="Models\Pedidos_Pacientes.cs" />
+    <Compile Include="Models\Pedidos_PacientesDAO.cs" />
     <Compile Include="Realiza Pedidos.xaml.cs">
       <DependentUpon>Realiza Pedidos.xaml</DependentUpon>
     </Compile>
