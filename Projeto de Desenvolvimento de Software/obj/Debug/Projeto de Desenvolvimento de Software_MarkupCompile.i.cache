@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\App.xaml
-21253548213
+3530350752
 21850099314
-18-114671111
+191456947671
 135-1515879031
-MainWindow.xaml;Views\RealizaPedidos.xaml;
+Orcamento.xaml;Views\Login.xaml;Views\RealizaPedidos.xaml;
 
-False
+True
 

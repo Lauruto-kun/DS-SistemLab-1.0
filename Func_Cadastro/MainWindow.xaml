@@ -19,7 +19,7 @@
                 <Style/>
             </Button.Style>
         </Button>
-        <TextBox HorizontalAlignment="Left" Margin="171,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Height="24"/>
+        <TextBox HorizontalAlignment="Left" Margin="171,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Height="24" TextChanged="TextBox_TextChanged"/>
         <TextBox HorizontalAlignment="Left" Margin="175,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329" Height="24"/>
         <TextBox HorizontalAlignment="Left" Margin="75,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429" Height="24"/>
         <TextBox HorizontalAlignment="Left" Margin="81,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="423" Height="24"/>

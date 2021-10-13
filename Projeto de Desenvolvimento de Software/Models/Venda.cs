@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Projeto_Fârmacia_PDS_.Models
+namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
     public class Venda
     {

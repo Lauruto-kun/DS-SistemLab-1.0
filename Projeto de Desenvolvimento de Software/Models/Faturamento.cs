@@ -8,16 +8,16 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
     class Faturamento
     {
-        public int Id_fat { get; set; }
-        public int Custo_exa_fat { get; set; }
-        public DateTime Data_real_fat { get; set; }
-        public DateTime Data_cheg_fat { get; set; }
-        public int Contas_pag { get; set; }
-        public int Contas_rec { get; set; }
-        public int Id_fin_fk { get; set; }
+        public int Id { get; set; }
 
-
-
-
+        public int Custoexame { get; set; }
+        
+        public DateTime Datarealizacao { get; set; }
+        
+        public DateTime Datachegada { get; set; }
+        
+        public int Contaspagar { get; set; }
+        
+        public int Contasrecebimento { get; set; }
     }
 }

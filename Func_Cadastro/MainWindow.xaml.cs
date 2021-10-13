@@ -29,5 +29,10 @@ namespace Func_Cadastro
         {
             MessageBox.Show("Cadastro Realizado com Sucesso!");
         }
+
+        private void TextBox_TextChanged(object sender, TextChangedEventArgs e)
+        {
+
+        }
     }
 }

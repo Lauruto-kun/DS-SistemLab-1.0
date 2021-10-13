@@ -1,49 +1,51 @@
-﻿<Window x:Class="Projeto_de_Desenvolvimento_de_Software.MainWindow"
+﻿<Window x:Class="Projeto_de_Desenvolvimento_de_Software.Orcamento"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:Projeto_de_Desenvolvimento_de_Software"
+        xmlns:local="clr-namespace:Projeto_de_Desenvolvimento_de_Software.Views"
         mc:Ignorable="d"
-        Title="Orçamento" Height="469" Width="800">
-    <Grid x:Name="orçamento">
-        <DataGrid x:Name="Datagrid" HorizontalAlignment="Left" Height="218" Margin="19,114,0,0" VerticalAlignment="Top" Width="724" SelectionChanged="Datagrid_SelectionChanged_1"/>
-        <Label x:Name="orc" Content="Operação: " HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Width="68" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.256,0.792"/>
-        <Label x:Name="orc_Copy1" Content="Paciente:&#xA;" HorizontalAlignment="Left" Margin="30,38,0,0" VerticalAlignment="Top" Width="67" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold"/>
-        <Label x:Name="orc_Copy2" Content="Atendente:&#xA;" HorizontalAlignment="Left" Margin="24,62,0,0" VerticalAlignment="Top" Width="73" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold"/>
-        <Label x:Name="dataval" Content="Data de Validade:&#xA;" HorizontalAlignment="Left" Margin="518,68,0,0" VerticalAlignment="Top" Width="112" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold"/>
-        <TextBox x:Name="opera" HorizontalAlignment="Left" Height="24" Margin="97,10,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.356,0.652" TextChanged="opera_TextChanged"/>
-        <TextBox x:Name="pac" HorizontalAlignment="Left" Height="23" Margin="97,39,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="69" TextChanged="pac_TextChanged"/>
-        <TextBox x:Name="id" HorizontalAlignment="Left" Height="24" Margin="635,12,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="52" TextChanged="id_TextChanged" AutoWordSelection="True"/>
-        <TextBox x:Name="aten" HorizontalAlignment="Left" Height="24" Margin="97,67,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.522,0.156" TextChanged="TextBox_TextChanged_1"/>
-        <Label x:Name="orc_Copy4" Content="Código:" HorizontalAlignment="Left" Margin="573,12,0,0" VerticalAlignment="Top" Width="52" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.256,0.792"/>
-        <Label x:Name="orc_Copy6" Content="Data de Inicio:&#xA;" HorizontalAlignment="Left" Margin="532,39,0,0" VerticalAlignment="Top" Width="93" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.518,0.792"/>
-        <Button x:Name="Menu" Content="Menu&#xD;&#xA;" HorizontalAlignment="Left" Margin="24,393,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.467,0.45" Height="22" Click="Salvar_Copy3_Click"/>
-        <Button x:Name="Button_Click" Content="Excluir&#xA;" HorizontalAlignment="Left" Margin="685,395,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.467,0.45" Height="20" Click="Salvar_Copy_Click"/>
-        <Label x:Name="orc_Copy" Content="Total&#xA;" HorizontalAlignment="Left" Margin="30,337,0,0" VerticalAlignment="Top" Width="51" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <TextBox x:Name="total" HorizontalAlignment="Left" Height="24" Margin="30,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.356,0.652" TextChanged="total_TextChanged"/>
-        <Label x:Name="orc_Copy5" Content="Descontos&#xA;" HorizontalAlignment="Left" Margin="115,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <TextBox x:Name="desconto" HorizontalAlignment="Left" Height="24" Margin="115,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.356,0.652" TextChanged="desconto_TextChanged"/>
-        <Label x:Name="orc_Copy7" Content="Descontos&#xA;" HorizontalAlignment="Left" Margin="115,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <Label x:Name="orc_Copy8" Content="Subtotal &#xA;" HorizontalAlignment="Left" Margin="228,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <TextBox x:Name="subtotal" HorizontalAlignment="Left" Height="24" Margin="228,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.356,0.652" TextChanged="subtotal_TextChanged"/>
-        <Label x:Name="orc_Copy9" Content="Acréscimo &#xA;" HorizontalAlignment="Left" Margin="532,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <TextBox x:Name="acrescimo" HorizontalAlignment="Left" Height="24" Margin="532,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.356,0.652" TextChanged="TextBox_TextChanged_1"/>
-        <Label x:Name="orc_Copy10" Content="Acréscimo &#xA;" HorizontalAlignment="Left" Margin="532,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <Label x:Name="orc_Copy11" Content="Impostos &#xA;" HorizontalAlignment="Left" Margin="645,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <TextBox x:Name="imposto" HorizontalAlignment="Left" Height="24" Margin="650,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.356,0.652" TextChanged="TextBox_TextChanged"/>
-        <Label x:Name="orc_Copy12" Content="Subtotal &#xA;" HorizontalAlignment="Left" Margin="228,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <Label x:Name="orc_Copy13" Content="Valor Bruto&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="411,337,0,0" VerticalAlignment="Top" Width="102" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
-        <TextBox x:Name="valor_bruto" HorizontalAlignment="Left" Height="24" Margin="411,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.356,0.652" TextChanged="valor_bruto_TextChanged"/>
-        <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
-        <Image x:Name="imagem" HorizontalAlignment="Left" Height="112" Margin="269,0,0,0" VerticalAlignment="Top" Width="183" Source="download.jfif" Cursor="None"/>
-        <Button x:Name="Novo" Content="Novo" HorizontalAlignment="Left" Margin="492,395,0,0" VerticalAlignment="Top" Width="75" Click="Novo_Click"/>
-        <Button x:Name="Alterar" Content="Alterar" HorizontalAlignment="Left" Margin="589,395,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
-        <Button x:Name="sair" Content="Sair" HorizontalAlignment="Left" Margin="299,395,0,0" VerticalAlignment="Top" Width="75" Click="sair_Click"/>
-        <Button x:Name="calcular" Content="Calcular" HorizontalAlignment="Left" Margin="397,395,0,0" VerticalAlignment="Top" Width="75"/>
-        <Button x:Name="calcular_desconto" Content="Calcular Desconto" HorizontalAlignment="Left" Margin="133,395,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_2"/>
-        <DatePicker x:Name="dataini" HorizontalAlignment="Left" Margin="630,41,0,0" VerticalAlignment="Top"/>
-        <DatePicker x:Name="dataval1" HorizontalAlignment="Left" Margin="630,74,0,0" VerticalAlignment="Top"/>
+        Title="Orcamento" Height="450" Width="800">
+    <Grid>
+        <Grid x:Name="orçamento">
+            <DataGrid x:Name="Datagrid" HorizontalAlignment="Left" Height="218" Margin="19,114,0,0" VerticalAlignment="Top" Width="724" SelectionChanged="Datagrid_SelectionChanged_1"/>
+            <Label x:Name="orc" Content="Operação: " HorizontalAlignment="Left" Margin="24,10,0,0" VerticalAlignment="Top" Width="68" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.256,0.792"/>
+            <Label x:Name="orc_Copy1" Content="Paciente:&#xA;" HorizontalAlignment="Left" Margin="30,38,0,0" VerticalAlignment="Top" Width="67" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold"/>
+            <Label x:Name="orc_Copy2" Content="Atendente:&#xA;" HorizontalAlignment="Left" Margin="24,62,0,0" VerticalAlignment="Top" Width="73" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold"/>
+            <Label x:Name="dataval" Content="Data de Validade:&#xA;" HorizontalAlignment="Left" Margin="518,68,0,0" VerticalAlignment="Top" Width="112" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold"/>
+            <TextBox x:Name="opera" HorizontalAlignment="Left" Height="24" Margin="97,10,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.356,0.652" TextChanged="opera_TextChanged"/>
+            <TextBox x:Name="pac" HorizontalAlignment="Left" Height="23" Margin="97,39,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="69" TextChanged="pac_TextChanged"/>
+            <TextBox x:Name="id" HorizontalAlignment="Left" Height="24" Margin="635,12,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="52" TextChanged="id_TextChanged" AutoWordSelection="True"/>
+            <TextBox x:Name="aten" HorizontalAlignment="Left" Height="24" Margin="97,67,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.522,0.156" TextChanged="TextBox_TextChanged_1"/>
+            <Label x:Name="orc_Copy4" Content="Código:" HorizontalAlignment="Left" Margin="573,12,0,0" VerticalAlignment="Top" Width="52" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.256,0.792"/>
+            <Label x:Name="orc_Copy6" Content="Data de Inicio:&#xA;" HorizontalAlignment="Left" Margin="532,39,0,0" VerticalAlignment="Top" Width="93" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.518,0.792"/>
+            <Button x:Name="Menu" Content="Menu&#xD;&#xA;" HorizontalAlignment="Left" Margin="24,393,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.467,0.45" Height="22" Click="Salvar_Copy3_Click"/>
+            <Button x:Name="Button_Click" Content="Excluir&#xA;" HorizontalAlignment="Left" Margin="685,395,0,0" VerticalAlignment="Top" Width="75" RenderTransformOrigin="-0.467,0.45" Height="20" Click="Salvar_Copy_Click"/>
+            <Label x:Name="orc_Copy" Content="Total&#xA;" HorizontalAlignment="Left" Margin="30,337,0,0" VerticalAlignment="Top" Width="51" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <TextBox x:Name="total" HorizontalAlignment="Left" Height="24" Margin="30,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="69" RenderTransformOrigin="0.356,0.652" TextChanged="total_TextChanged"/>
+            <Label x:Name="orc_Copy5" Content="Descontos&#xA;" HorizontalAlignment="Left" Margin="115,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <TextBox x:Name="desconto" HorizontalAlignment="Left" Height="24" Margin="115,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.356,0.652" TextChanged="desconto_TextChanged"/>
+            <Label x:Name="orc_Copy7" Content="Descontos&#xA;" HorizontalAlignment="Left" Margin="115,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <Label x:Name="orc_Copy8" Content="Subtotal &#xA;" HorizontalAlignment="Left" Margin="228,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <TextBox x:Name="subtotal" HorizontalAlignment="Left" Height="24" Margin="228,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="81" RenderTransformOrigin="0.356,0.652" TextChanged="subtotal_TextChanged"/>
+            <Label x:Name="orc_Copy9" Content="Acréscimo &#xA;" HorizontalAlignment="Left" Margin="532,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <TextBox x:Name="acrescimo" HorizontalAlignment="Left" Height="24" Margin="532,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.356,0.652" TextChanged="TextBox_TextChanged_1"/>
+            <Label x:Name="orc_Copy10" Content="Acréscimo &#xA;" HorizontalAlignment="Left" Margin="532,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <Label x:Name="orc_Copy11" Content="Impostos &#xA;" HorizontalAlignment="Left" Margin="645,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <TextBox x:Name="imposto" HorizontalAlignment="Left" Height="24" Margin="650,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="93" RenderTransformOrigin="0.356,0.652" TextChanged="TextBox_TextChanged"/>
+            <Label x:Name="orc_Copy12" Content="Subtotal &#xA;" HorizontalAlignment="Left" Margin="228,337,0,0" VerticalAlignment="Top" Width="81" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <Label x:Name="orc_Copy13" Content="Valor Bruto&#xD;&#xA;&#xA;" HorizontalAlignment="Left" Margin="411,337,0,0" VerticalAlignment="Top" Width="102" Height="24" FontFamily="Malgun Gothic" FontWeight="Bold" RenderTransformOrigin="0.157,0.542"/>
+            <TextBox x:Name="valor_bruto" HorizontalAlignment="Left" Height="24" Margin="411,361,0,0" TextWrapping="Wrap" Text="&#xA;" VerticalAlignment="Top" Width="102" RenderTransformOrigin="0.356,0.652" TextChanged="valor_bruto_TextChanged"/>
+            <Image HorizontalAlignment="Left" Height="100" VerticalAlignment="Top" Width="100"/>
+            <Image x:Name="imagem" HorizontalAlignment="Left" Height="112" Margin="269,0,0,0" VerticalAlignment="Top" Width="183" Source="download.jfif" Cursor="None"/>
+            <Button x:Name="Novo" Content="Novo" HorizontalAlignment="Left" Margin="492,395,0,0" VerticalAlignment="Top" Width="75" Click="Novo_Click"/>
+            <Button x:Name="Alterar" Content="Alterar" HorizontalAlignment="Left" Margin="589,395,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_3"/>
+            <Button x:Name="sair" Content="Sair" HorizontalAlignment="Left" Margin="299,395,0,0" VerticalAlignment="Top" Width="75" Click="sair_Click"/>
+            <Button x:Name="calcular" Content="Calcular" HorizontalAlignment="Left" Margin="397,395,0,0" VerticalAlignment="Top" Width="75"/>
+            <Button x:Name="calcular_desconto" Content="Calcular Desconto" HorizontalAlignment="Left" Margin="133,395,0,0" VerticalAlignment="Top" Width="115" Click="Button_Click_2"/>
+            <DatePicker x:Name="dataini" HorizontalAlignment="Left" Margin="630,41,0,0" VerticalAlignment="Top"/>
+            <DatePicker x:Name="dataval1" HorizontalAlignment="Left" Margin="630,74,0,0" VerticalAlignment="Top"/>
 
+        </Grid>
     </Grid>
 </Window>

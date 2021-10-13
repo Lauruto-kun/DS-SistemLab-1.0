@@ -11,8 +11,7 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
         public int Id_ped { get; set; }
         public string Descricao_ped { get; set; }
         public string Tipo_ped { get; set; }
-        public int Id_pa_fk { get; set; }
 
-
+   
     }
 }

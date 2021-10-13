@@ -57,3 +57,6 @@ C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\D
 C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.GenerateResource.cache
 C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.CoreCompileInputs.cache
 C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.CopyComplete
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.AssemblyReference.cache
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.exe
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.pdb

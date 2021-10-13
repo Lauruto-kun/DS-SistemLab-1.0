@@ -7,13 +7,13 @@ using MySql.Data.MySqlClient;
 using System.Data;
 namespace Projeto_de_Desenvolvimento_de_Software.Database
 {
-    public  class Conexão
+    public  class Conexao
     {
         private static string host = "localhost";
 
         private static string port = "3306";
 
-        private static string password = "";
+        private static string password = "root";
 
         private static string user = "root";
 
@@ -24,7 +24,7 @@ namespace Projeto_de_Desenvolvimento_de_Software.Database
         private static MySqlCommand command;
 
 
-        public Conexão()
+        public Conexao()
         {
             try
             {

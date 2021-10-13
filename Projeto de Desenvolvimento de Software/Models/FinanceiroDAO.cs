@@ -9,11 +9,11 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
     class FinanceiroDAO : IDAO<Financeiro>
     {
-        private static Conexão conn;
+        private static Conexao conn;
 
         public FinanceiroDAO()
         {
-            conn = new Conexão();
+            conn = new Conexao();
         }
         public void Delete(Financeiro t)
         {

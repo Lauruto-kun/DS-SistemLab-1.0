@@ -1,33 +1,45 @@
-﻿using System.Collections.Generic;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using Projeto_de_Desenvolvimento_de_Software.Models;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Shapes;
 using Projeto_de_Desenvolvimento_de_Software.Database;
-using Projeto_Fârmacia_PDS_.Models;
-using System;
-using Projeto_de_Desenvolvimento_de_Software.
+using Projeto_de_Desenvolvimento_de_Software.Interface;
+using Projeto_de_Desenvolvimento_de_Software.Models;
 
-namespace Projeto_de_Desenvolvimento_de_Software
+
+namespace Projeto_de_Desenvolvimento_de_Software.Views
 {
     /// <summary>
-    /// Interação lógica para MainWindow.xam
+    /// Lógica interna para Orcamento.xaml
     /// </summary>
-    public partial class MainWindow : Window
+    public partial class Orcamento : Window
     {
-        public MainWindow()
+        public Orcamento()
         {
             InitializeComponent();
             Loaded += MainWindow_Loaded;
+        }
 
-            
+        private void InitializeComponent()
+        {
+            throw new NotImplementedException();
         }
 
         private void MainWindow_Loaded(object sender, RoutedEventArgs e)
         {
-            
-            
-                var conexao = new Conexão();
-            
+
+
+            var conexao = new Conexao();
+
 
             List<Venda> listaVendas = new List<Venda>();
             for (int i = 0; i < 100; i++)
@@ -41,7 +53,7 @@ namespace Projeto_de_Desenvolvimento_de_Software
                     quant = 02 * i,
                     Desconto = 10,
                     Preco = 15.50 * i,
-                    Total= 15.59-10-(2*i)
+                    Total = 15.59 - 10 - (2 * i)
 
                 }
            );
@@ -63,7 +75,7 @@ namespace Projeto_de_Desenvolvimento_de_Software
             acrescimo.Clear();
             id.Clear();
             aten.Clear();
-            
+
             pac.Clear();
             desconto.Clear();
             opera.Clear();
@@ -154,7 +166,7 @@ namespace Projeto_de_Desenvolvimento_de_Software
 
         }
 
-        
+
         private void Insert_Teste()
         {
             try
@@ -170,11 +182,11 @@ namespace Projeto_de_Desenvolvimento_de_Software
 
                 MessageBox.Show("O pedido do paciente foi realizado com sucesso!!");
             }
-            catch(Exception ex)
+            catch (Exception ex)
             {
                 MessageBox.Show(ex.Message, "Não Executado", MessageBoxButton.OK, MessageBoxImage.Error); ;
             }
         }
-        
+
     }
 }
