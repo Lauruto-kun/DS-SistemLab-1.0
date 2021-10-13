@@ -5,6 +5,7 @@ using Projeto_de_Desenvolvimento_de_Software.Models;
 using Projeto_de_Desenvolvimento_de_Software.Database;
 using Projeto_Fârmacia_PDS_.Models;
 using System;
+using Projeto_de_Desenvolvimento_de_Software.
 
 namespace Projeto_de_Desenvolvimento_de_Software
 {
@@ -153,6 +154,7 @@ namespace Projeto_de_Desenvolvimento_de_Software
 
         }
 
+        
         private void Insert_Teste()
         {
             try
