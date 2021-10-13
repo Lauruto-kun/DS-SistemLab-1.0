@@ -4,17 +4,17 @@
 winexe
 C#
 .cs
-C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\
 Projeto_de_Desenvolvimento_de_Software
 none
 false
 DEBUG;TRACE
-C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\App.xaml
-2-545302698
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\App.xaml
+2-1564726456
 21850099314
-9-2146768256
-135-2143062453
-MainWindow.xaml;Realiza Pedidos.xaml;
+1876029279
+135-1515879031
+MainWindow.xaml;Views\Realiza Pedidos.xaml;
 
-False
+True
 
