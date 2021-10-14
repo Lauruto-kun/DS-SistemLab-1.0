@@ -11,14 +11,20 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using Projeto_de_Desenvolvimento_de_Software.Views;
+using Projeto_de_Desenvolvimento_de_Software.Database;
+using Projeto_de_Desenvolvimento_de_Software.Models;
 
 namespace Projeto_de_Desenvolvimento_de_Software.Views
 {
     /// <summary>
     /// Lógica interna para ExibirExame.xaml
     /// </summary>
+    /// 
+    
     public partial class ExibirExame : Window
     {
+        
         public ExibirExame()
         {
             InitializeComponent();
@@ -26,11 +32,27 @@ namespace Projeto_de_Desenvolvimento_de_Software.Views
 
         private void btnSelecionar_Click(object sender, RoutedEventArgs e)
         {
-            string lista;
+           
+        }
 
-            lista = cmbLista.Text;
+        private void cmbLista_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
 
-            MessageBox.Show($"Exame selecionado: {lista}");
+        }
+
+        private void cmbListaSelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
+
+        private void ComboBoxItem_Selected(object sender, RoutedEventArgs e)
+        {
+
+        }
+
+        private void ComboBoxItem_Selected_1(object sender, RoutedEventArgs e)
+        {
+
         }
     }
 }

@@ -14,6 +14,7 @@ using System.Windows.Shapes;
 using Projeto_de_Desenvolvimento_de_Software.Database;
 using Projeto_de_Desenvolvimento_de_Software.Interface;
 using Projeto_de_Desenvolvimento_de_Software.Models;
+using Projeto_de_Desenvolvimento_de_Software.Views;
 
 namespace Projeto_de_Desenvolvimento_de_Software.Views
 {
@@ -173,9 +174,9 @@ namespace Projeto_de_Desenvolvimento_de_Software.Views
             {
                 Pedidos_Pacientes pedidos_pacientes = new Pedidos_Pacientes();
 
-                pedidos_pacientes.Descricao_ped = "Qualquer coisa";
-                pedidos_pacientes.Id_pa_fk = 1;
-                pedidos_pacientes.Tipo_ped = "O+";
+                pedidos_pacientes.Descricaopedido= "Qualquer coisa";
+                pedidos_pacientes.Idpedido = 1;
+                pedidos_pacientes.Tipopedido = "O+";
 
                 Pedidos_PacientesDAO pedidos_pacientesDAO = new Pedidos_PacientesDAO();
                 pedidos_pacientesDAO.Insert(pedidos_pacientes);

@@ -3,4 +3,12 @@
   <PropertyGroup>
     <ProjectView>ShowAllFiles</ProjectView>
   </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Debug|AnyCPU'">
+    <StartAction>Project</StartAction>
+    <StartProgram>C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.exe</StartProgram>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)' == 'Release|AnyCPU'">
+    <StartAction>Program</StartAction>
+    <StartProgram>C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.exe</StartProgram>
+  </PropertyGroup>
 </Project>

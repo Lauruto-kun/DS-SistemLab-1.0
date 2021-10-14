@@ -3,12 +3,13 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using MySql.Data.MySqlClient;
 using System.Data;
 
 namespace Projeto_de_Desenvolvimento_de_Software.Database
 {
-    public  class Conexao
+    public class Conexao
     {
         private static string host = "localhost";
 
@@ -31,7 +32,8 @@ namespace Projeto_de_Desenvolvimento_de_Software.Database
             {
                 connection = new MySqlConnection($"server={host};user={user};database={bdname};port={port};password={password}");
                 connection.Open();
-            }catch (Exception)
+            }
+            catch (Exception)
             {
                 throw;
             }
@@ -42,7 +44,7 @@ namespace Projeto_de_Desenvolvimento_de_Software.Database
             try
             {
                 command = connection.CreateCommand();
-                command.CommandType =CommandType.Text;
+                command.CommandType = CommandType.Text;
 
                 return command;
             }

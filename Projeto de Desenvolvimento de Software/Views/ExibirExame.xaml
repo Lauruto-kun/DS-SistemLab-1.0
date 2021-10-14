@@ -15,9 +15,9 @@
         <TextBlock Grid.Row="0" Grid.ColumnSpan="2" Text="Lista de Exames" FontSize="30" Background="Gainsboro" 
                    Padding="10 13 10 0" TextDecorations="Underline" FontWeight="Bold" FontFamily="Arial" TextAlignment="Center"/>
         <ComboBox Name="cmbLista" HorizontalAlignment="Left" VerticalAlignment="Top" Width="250" Margin="30,26,0,0" 
-                  Grid.Row="1" Height="34" FontSize="14" SelectionChanged="cmbLista_SelectionChanged">
-            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Hemograma</ComboBoxItem>
-            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Urina</ComboBoxItem>
+                  Grid.Row="1" Height="34" FontSize="14" SelectionChanged="cmbListaSelectionChanged">
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" Selected="ComboBoxItem_Selected" >Hemograma</ComboBoxItem>
+            <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" Selected="ComboBoxItem_Selected_1" >Urina</ComboBoxItem>
             <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Parasitologico</ComboBoxItem>
             <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Glicose</ComboBoxItem>
             <ComboBoxItem Background="#FFE5E5E5" FontSize="14" FontFamily="Arial" >Beta</ComboBoxItem>

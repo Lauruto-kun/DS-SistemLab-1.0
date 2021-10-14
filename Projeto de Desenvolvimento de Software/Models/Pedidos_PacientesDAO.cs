@@ -9,11 +9,11 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
     class Pedidos_PacientesDAO : IDAO<Pedidos_Pacientes>
     {
-        private static Conexão conn;
+        private static Conexao conn;
 
         public Pedidos_PacientesDAO()
         {
-            conn = new Conexão();
+            conn = new Conexao();
         }
         public void Delete(Pedidos_Pacientes t)
         {
