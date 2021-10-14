@@ -30,11 +30,10 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
             try
             {
                 var query = conn.Query();
-                query.CommandText = "INSERT INTO pedidos_pacientes  (descricao_ped,tipo_ped,id_pa_fk) " + "VALUES (@Descricao_ped,@Tipo_ped,@Id_pa_fk)";
+                query.CommandText = "INSERT INTO pedidos_pacientes  (descricao_ped,tipo_ped) " + "VALUES (@Descricaopedido,@Tipopedido)";
 
-                query.Parameters.AddWithValue("@Descricao_ped",t.Descricao_ped);
-                query.Parameters.AddWithValue("@Tipo_ped", t.Tipo_ped);
-                query.Parameters.AddWithValue("@Id_pa_fk", t.Id_pa_fk);
+                query.Parameters.AddWithValue("@Descricaopedido",t.Descricaopedido);
+                query.Parameters.AddWithValue("@Tipopedido", t.Tipopedido);
 
                 var result = query.ExecuteNonQuery();
 

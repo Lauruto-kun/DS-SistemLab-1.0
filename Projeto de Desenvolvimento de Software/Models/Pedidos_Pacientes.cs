@@ -8,9 +8,9 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
     class Pedidos_Pacientes
     {
-        public int Id_ped { get; set; }
-        public string Descricao_ped { get; set; }
-        public string Tipo_ped { get; set; }
+        public int Idpedido { get; set; }
+        public string Descricaopedido { get; set; }
+        public string Tipopedido { get; set; }
 
    
     }

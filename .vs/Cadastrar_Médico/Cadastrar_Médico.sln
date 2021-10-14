@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30717.126
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Cadastrar_Médico", "..\..\Cadastrar_Médico\Cadastrar_Médico.csproj", "{DAB3B686-3E84-48C3-92C1-23CF4E84A265}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAB3B686-3E84-48C3-92C1-23CF4E84A265}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAB3B686-3E84-48C3-92C1-23CF4E84A265}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAB3B686-3E84-48C3-92C1-23CF4E84A265}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAB3B686-3E84-48C3-92C1-23CF4E84A265}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DA5A8A60-2A9D-4C8D-B0D1-03A381E6AD35}
+	EndGlobalSection
+EndGlobal

@@ -32,11 +32,11 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
             try
             {
                 var query = conn.Query();
-                query.CommandText = "INSERT INTO pedidos_pacientes  (descricao_ped,tipo_ped,id_pa_fk) " + "VALUES (@Descricao_ped,@Tipo_ped,@Id_pa_fk)";
+                query.CommandText = "INSERT INTO pedidos_pacientes  (descricao_ped,tipo_ped,id_pa_fk) " + "VALUES (@Dataentrega,@Valorbruto,@Valorliquido)";
 
-                query.Parameters.AddWithValue("@Data_entrega", t.Data_entrega.ToString("yyyy-MM-dd")); //"10/11/1998 -> "1998-11-10"    
-                 query.Parameters.AddWithValue("@Valor_but", t.Valor_but);
-                query.Parameters.AddWithValue("@Valor_liq", t.Valor_liq);
+                query.Parameters.AddWithValue("@Dataentrega", t.Dataentrega.ToString("yyyy-MM-dd")); //"10/11/1998 -> "1998-11-10"    
+                 query.Parameters.AddWithValue("@Valorbruto", t.Valorbruto);
+                query.Parameters.AddWithValue("@Valorliquido", t.Valorliquido);
 
                 var result = query.ExecuteNonQuery();
 

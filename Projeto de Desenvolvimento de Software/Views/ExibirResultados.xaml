@@ -38,4 +38,5 @@
                 Margin="562,287,0,0" Grid.Row="1" Height="44" Background="#FFDDDDDD" FontFamily="Arial" FontSize="14" 
                 Click="btnImprimir_Click"/>
     </Grid>
+    
 </Window>

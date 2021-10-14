@@ -60,3 +60,13 @@ C:\Projeto PDS\PDS\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\D
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.AssemblyReference.cache
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.exe
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.pdb
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\CadastrarFuncionario.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\ExibirExame.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\ExibirResultados.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\GerarConvenio.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\Orcament.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\Login.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\RealizaPedidos.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\App.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software_MarkupCompile.cache
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software_MarkupCompile.lref

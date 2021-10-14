@@ -104,8 +104,6 @@
     <Compile Include="Models\FaturamentoDAO.cs" />
     <Compile Include="Models\Financeiro.cs" />
     <Compile Include="Models\FinanceiroDAO.cs" />
-    <Compile Include="Models\Pedidos_medico.cs" />
-    <Compile Include="Models\Pedidos_medicosDAO.cs" />
     <Compile Include="Models\Pedidos_Pacientes.cs" />
     <Compile Include="Models\Pedidos_PacientesDAO.cs" />
     <Compile Include="Views\CadastrarFuncionario.xaml.cs">

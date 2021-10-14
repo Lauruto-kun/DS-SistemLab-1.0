@@ -8,10 +8,10 @@ namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
     public class Financeiro
     {
-        public int Id_fin { get; set; }
-        public DateTime Data_entrega { get; set; }
-        public float Valor_liq { get; set; }
-        public float Valor_but { get; set; }
+        public int Idfinanceiro { get; set; }
+        public DateTime Dataentrega { get; set; }
+        public float Valorliquido { get; set; }
+        public float Valorbruto { get; set; }
 
     }
 }
