@@ -12,18 +12,19 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
 using Projeto_de_Desenvolvimento_de_Software.Database;
-using Projeto_de_Desenvolvimento_de_Software.Interface;
-using Projeto_de_Desenvolvimento_de_Software.Models;
 using Projeto_de_Desenvolvimento_de_Software.Views;
+using Projeto_de_Desenvolvimento_de_Software.Models;
+using Projeto_de_Desenvolvimento_de_Software.Interface;
+
 
 namespace Projeto_de_Desenvolvimento_de_Software.Views
 {
     /// <summary>
-    /// Lógica interna para Orcament.xaml
+    /// Lógica interna para MainWindow.xaml
     /// </summary>
-    public partial class Orcament : Window
+    public partial class MainWindow : Window
     {
-        public Orcament()
+        public MainWindow()
         {
             InitializeComponente();
             Loaded += MainWindow_Loaded;
@@ -104,7 +105,7 @@ namespace Projeto_de_Desenvolvimento_de_Software.Views
 
         private void Novo_Click(object sender, RoutedEventArgs e)
         {
-
+            Insert_Teste();
         }
 
         private void sair_Click(object sender, RoutedEventArgs e)
@@ -174,7 +175,7 @@ namespace Projeto_de_Desenvolvimento_de_Software.Views
             {
                 Pedidos_Pacientes pedidos_pacientes = new Pedidos_Pacientes();
 
-                pedidos_pacientes.Descricaopedido= "Qualquer coisa";
+                pedidos_pacientes.Descricaopedido = "Qualquer coisa";
                 pedidos_pacientes.Idpedido = 1;
                 pedidos_pacientes.Tipopedido = "O+";
 

@@ -10,11 +10,11 @@ none
 false
 DEBUG;TRACE
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\App.xaml
-71218610197
+8-1924775233
 
-201128795401
+21-1355806514
 135-1515879031
-Views\CadastrarFuncionario.xaml;Views\ExibirExame.xaml;Views\ExibirResultados.xaml;Views\GerarConvenio.xaml;Views\Orcament.xaml;Views\Login.xaml;Views\RealizaPedidos.xaml;
+Views\CadastrarFuncionario.xaml;Views\ExibirExame.xaml;Views\ExibirResultados.xaml;Views\GerarConvenio.xaml;Views\janela.xaml;Views\Login.xaml;Views\MainWindow.xaml;Views\RealizaPedidos.xaml;
 
-False
+True
 

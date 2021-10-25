@@ -1,7 +1,9 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Projeto de Desenvolvimento de Software",
+    "\\Projeto de Desenvolvimento de Software\\Views"
   ],
-  "SelectedNode": "\\Gerar_Convênios.sln",
+  "SelectedNode": "\\Projeto de Desenvolvimento de Software\\Views\\MainWindow.xaml.cs",
   "PreviewInSolutionExplorer": false
 }

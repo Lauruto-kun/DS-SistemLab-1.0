@@ -64,7 +64,6 @@ C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\Cadas
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\ExibirExame.g.cs
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\ExibirResultados.g.cs
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\GerarConvenio.g.cs
-C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\Orcament.g.cs
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\Login.g.cs
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\RealizaPedidos.g.cs
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\App.g.cs
@@ -95,7 +94,6 @@ C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\bin\Debug\System.Buff
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\bin\Debug\System.Memory.xml
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\bin\Debug\System.Numerics.Vectors.xml
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
-C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\Orcament.baml
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\Login.baml
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\RealizaPedidos.baml
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\CadastrarFuncionario.baml
@@ -107,3 +105,5 @@ C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto_de_
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.GenerateResource.cache
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.CoreCompileInputs.cache
 C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Projeto de Desenvolvimento de Software.csproj.CopyComplete
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\MainWindow.g.cs
+C:\DS-SistemLab-1.0\Projeto de Desenvolvimento de Software\obj\Debug\Views\MainWindow.baml

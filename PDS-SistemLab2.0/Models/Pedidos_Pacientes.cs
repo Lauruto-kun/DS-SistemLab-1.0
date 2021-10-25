@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Projeto_de_Desenvolvimento_de_Software.Models
 {
-    class Pedidos_Pacientes
+    public   class Pedidos_Pacientes
     {
         public int Idpedido { get; set; }
         public string Descricaopedido { get; set; }
