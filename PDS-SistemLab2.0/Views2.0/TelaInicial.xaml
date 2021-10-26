@@ -1,0 +1,21 @@
+﻿<Window x:Class="PDS_SistemLab2._0.Views2._0.TelaInicial"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:PDS_SistemLab2._0.Views2._0"
+        mc:Ignorable="d"
+        Title="Tela Inicial" Height="358.763" Width="925.258">
+    <Grid Margin="0,0,-90,0">
+        <Button x:Name="médico_" Content="Cadastrar Funcionário" HorizontalAlignment="Left" Margin="27,248,0,0" VerticalAlignment="Top" Width="168" Height="53"   FontSize="16" Background="#FFDAD5D5" BorderBrush="#FF1F0D0D" Foreground="#FF0C0404" Click="médico__Click"/>
+        <Label Content="BEM VINDO USUÁRIO!!! O QUE DESEJA HOJE?" HorizontalAlignment="Left" Margin="80,30,0,0" VerticalAlignment="Top" Height="63" FontSize="24"/>
+        <Button x:Name="médico_1" Content="Cadastrar Médico" HorizontalAlignment="Left" Margin="217,248,0,0" VerticalAlignment="Top" Width="168" Height="53" Background="#FFDAD5D5" Foreground="#FF1F0D0D" BorderBrush="#FF150606" FontSize="16" Click="médico_1_Click"/>
+        <Button Content="Exibir Exames" HorizontalAlignment="Left" Margin="412,248,0,0" VerticalAlignment="Top" Width="168" Height="53" FontSize="16" Click="Button_Click"/>
+        <Button x:Name="orcamento" Content="Orçamento" HorizontalAlignment="Left" Margin="27,164,0,0" VerticalAlignment="Top" Width="168" Height="53" FontSize="16" Background="#FFDAD5D5" BorderBrush="#FF1F0D0D" Foreground="#FF0C0404" Click="orcamento_Click"/>
+        <Button x:Name="Gerar_Convenio" Content="Gerar Convênio" HorizontalAlignment="Left" Margin="412,164,0,0" VerticalAlignment="Top" Width="168" Height="53"   FontSize="16" Background="#FFDAD5D5" BorderBrush="#FF1F0D0D" Foreground="#FF0C0404" Click="Gerar_Convenio_Click"/>
+        <Button x:Name="exibir_resultado" Content="Exibir Resultados" HorizontalAlignment="Left" Margin="217,164,0,0" VerticalAlignment="Top" Width="168" Height="53"   FontSize="16" Background="#FFDAD5D5" BorderBrush="#FF1F0D0D" Foreground="#FF0C0404" Click="exibir_resultado_Click"/>
+        <Button x:Name="Realizar_Pedidos_dos_Pacientes" Content="Realizar_Pedidos dos Pacientes  " HorizontalAlignment="Left" Margin="607,248,0,0" VerticalAlignment="Top" Width="237" Height="53"  FontSize="16" Background="#FFDAD5D5" BorderBrush="#FF1F0D0D" Foreground="#FF0C0404" Click="Realizar_Pedidos_dos_Pacientes_Click"/>
+        <Button x:Name="login" Content="Voltar ao login" HorizontalAlignment="Left" Margin="607,164,0,0" VerticalAlignment="Top" Width="237" Height="53"   FontSize="16" Background="#FFDAD5D5" BorderBrush="#FF1F0D0D" Foreground="#FF0C0404" Click="login_Click"/>
+
+    </Grid>
+</Window>
