@@ -12,24 +12,31 @@
         <Label Content="RG" HorizontalAlignment="Left" Margin="39,134,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Label Content="CPF" HorizontalAlignment="Left" Margin="39,181,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.798,-0.577" FontSize="16"/>
         <Label Content="Celular" HorizontalAlignment="Left" Margin="39,233,0,0" VerticalAlignment="Top" RenderTransformOrigin="-2.109,0.53" FontSize="16"/>
-        <Label Content="E-Mail" HorizontalAlignment="Left" Margin="39,281,0,0" VerticalAlignment="Top" FontSize="16"/>
-        <Label Content="Tipo Sanguineo" HorizontalAlignment="Left" Margin="39,329,0,0" VerticalAlignment="Top" FontSize="16"/>
+        <Label Content="Cidade" HorizontalAlignment="Left" Margin="39,281,0,0" VerticalAlignment="Top" FontSize="16"/>
         <Button Content="Cadastrar" HorizontalAlignment="Left" Margin="579,345,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.024,0.62" Height="43" Width="189" Click="Button_Click" Visibility="Visible" FontFamily="Arial Black" FontWeight="Bold" FontStyle="Normal" Foreground="Black" BorderBrush="#FF0000A6" Background="#FFB8A657">
             <Button.Style>
                 <Style/>
             </Button.Style>
         </Button>
         <TextBox x:Name="nome" HorizontalAlignment="Left" Margin="171,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Height="24" TextChanged="TextBox_TextChanged"/>
-        <TextBox x:Name="datanas" HorizontalAlignment="Left" Margin="175,85,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="329" Height="24"/>
+        <DatePicker x:Name="datanas" HorizontalAlignment="Left" Margin="175,85,0,0"  VerticalAlignment="Top" Width="329" Height="24"/>
         <TextBox x:Name="RG" HorizontalAlignment="Left" Margin="75,141,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="429" Height="24" TextChanged="RG_TextChanged"/>
         <TextBox x:Name="CPF" HorizontalAlignment="Left" Margin="81,188,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="423" Height="24"/>
         <TextBox x:Name="celular" HorizontalAlignment="Left" Margin="105,237,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="399" Height="24"/>
-        <TextBox x:Name="e_mail" HorizontalAlignment="Left" Margin="103,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" Height="24"/>
-        <TextBox x:Name="tipo_san" HorizontalAlignment="Left" Margin="171,333,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Height="24"/>
+        <TextBox x:Name="Cidade" HorizontalAlignment="Left" Margin="103,285,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="401" Height="24"/>
         <Label x:Name="Logradouro" Content="Logradouro" HorizontalAlignment="Left" Margin="39,381,0,0" VerticalAlignment="Top" FontSize="16"/>
         <TextBox x:Name="logradouro" HorizontalAlignment="Left" Margin="171,385,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="333" Height="24"/>
-        <Label Content="Atuação " HorizontalAlignment="Left" Margin="538,33,0,0" VerticalAlignment="Top" FontSize="16" Height="48" Width="102"/>
-        <TextBox x:Name="atuacao" HorizontalAlignment="Left" Margin="621,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Height="24" TextChanged="atuacao_TextChanged"/>
+        <Label Content="Atuação " HorizontalAlignment="Left" Margin="39,338,0,0" VerticalAlignment="Top" FontSize="16" Height="48" Width="102"/>
+        <TextBox x:Name="atuacao" HorizontalAlignment="Left" Margin="122,345,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="382" Height="24" TextChanged="atuacao_TextChanged"/>
+        <Button Content="Visualizar Funcionario" HorizontalAlignment="Left" Margin="579,265,0,0" VerticalAlignment="Top" RenderTransformOrigin="1.024,0.62" Height="68" Width="189" Click="VisualizarFuncionario" Visibility="Visible" FontFamily="Arial Black" FontWeight="Bold" FontStyle="Normal" Foreground="Black" BorderBrush="#FF0000A6" Background="#FFB8A657">
+            <Button.Style>
+                <Style/>
+            </Button.Style>
+        </Button>
+        <Label Content="CEP " HorizontalAlignment="Left" Margin="538,101,0,0" VerticalAlignment="Top" FontSize="16" Height="48" Width="102"/>
+        <TextBox x:Name="CEP" HorizontalAlignment="Left" Margin="621,108,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="147" Height="24" TextChanged="atuacao_TextChanged"/>
+        <Label Content="ID " HorizontalAlignment="Left" Margin="525,33,0,0" VerticalAlignment="Top" FontSize="16" Height="48" Width="55"/>
+        <TextBox x:Name="ID" HorizontalAlignment="Left" Margin="570,40,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="80" Height="24" TextChanged="atuacao_TextChanged"/>
 
     </Grid>
     <Window.Background>

@@ -45,4 +45,10 @@
         <DatePicker x:Name="dataini" HorizontalAlignment="Left" Margin="630,41,0,0" VerticalAlignment="Top"/>
         <DatePicker x:Name="dataval1" HorizontalAlignment="Left" Margin="630,74,0,0" VerticalAlignment="Top"/>
     </Grid>
+    <Window.Background>
+        <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+            <GradientStop Color="White" Offset="0" />
+            <GradientStop Color="Black" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
 </Window>

@@ -109,6 +109,9 @@
     <Compile Include="Views2.0\ExibirResultados.xaml.cs">
       <DependentUpon>ExibirResultados.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views2.0\FuncionarioList.xaml.cs">
+      <DependentUpon>FuncionarioList.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views2.0\GerarConvenio.xaml.cs">
       <DependentUpon>GerarConvenio.xaml</DependentUpon>
     </Compile>
@@ -144,6 +147,10 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Views2.0\ExibirResultados.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Views2.0\FuncionarioList.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

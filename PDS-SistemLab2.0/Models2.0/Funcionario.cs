@@ -16,7 +16,8 @@ namespace PDS_SistemLab2._0.Models2._0
         public string Cidade { get; set; }
         public string Nome { get; set; }
         public int  CEP { get; set; }
-        public int Telefone { get; set; } 
+        public int Telefone { get; set; }
+ 
         public DateTime Datanas { get; set; }
     }
 }

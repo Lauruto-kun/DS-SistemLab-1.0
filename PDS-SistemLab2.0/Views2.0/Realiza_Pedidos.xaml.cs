@@ -50,23 +50,9 @@ namespace PDS_SistemLab2._0.Views2._0
 
         private void Menu_Click(object sender, RoutedEventArgs e)
         {
-            try
-            {
-                Pedidos_Pacientes pedidos_pacientes = new Pedidos_Pacientes();
-
-                pedidos_pacientes.Descricaopedido = descricao_ped.Text;               
-                pedidos_pacientes.Tipopedido = tipo_ped.Text;
-               
-
-                Pedidos_PacientesDAO pedidos_pacientesDAO = new Pedidos_PacientesDAO();
-                pedidos_pacientesDAO.Insert(pedidos_pacientes);
-
-                MessageBox.Show("O pedido do paciente foi realizado com sucesso!!");
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show(ex.Message, "Não Executado", MessageBoxButton.OK, MessageBoxImage.Error); ;
-            }
+            Button button = sender as Button;
+            var telainicial = new TelaInicial();
+            telainicial.ShowDialog();
         }
 
         private void Sair_Click(object sender, RoutedEventArgs e)
@@ -85,6 +71,38 @@ namespace PDS_SistemLab2._0.Views2._0
         }
 
         private void TextBox_TextChanged_1(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void salvar(object sender, RoutedEventArgs e)
+        {
+
+            try
+            {
+                Pedidos_Pacientes pedidos_pacientes = new Pedidos_Pacientes();
+
+                pedidos_pacientes.Descricaopedido = pedidos.Text;
+                pedidos_pacientes.Tipopedido = tipo_ped.Text;
+               
+
+                Pedidos_PacientesDAO pedidos_pacientesDAO = new Pedidos_PacientesDAO();
+                pedidos_pacientesDAO.Insert(pedidos_pacientes);
+
+                MessageBox.Show("O pedido do paciente foi realizado com sucesso!!");
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show(ex.Message, "Não Executado", MessageBoxButton.OK, MessageBoxImage.Error); ;
+            }
+        }
+
+        private void TextBox_TextChanged_2(object sender, TextChangedEventArgs e)
+        {
+
+        }
+
+        private void TextBox_TextChanged_3(object sender, TextChangedEventArgs e)
         {
 
         }

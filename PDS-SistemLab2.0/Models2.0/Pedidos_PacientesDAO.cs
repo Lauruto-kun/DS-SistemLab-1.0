@@ -30,7 +30,7 @@ namespace PDS_SistemLab2._0.Models2._0
             try
             {
                 var query = conn.Query();
-                query.CommandText = "INSERT INTO pedidos_pacientes  (descricao_ped,tipo_ped,paciente) " + "VALUES (@Descricaopedido,@Tipopedido)";
+                query.CommandText = "INSERT INTO pedidos_pacientes  (descricao_ped,tipo_ped) " + "VALUES (@Descricaopedido,@Tipopedido)";
 
                 query.Parameters.AddWithValue("@Descricaopedido", t.Descricaopedido);
                 query.Parameters.AddWithValue("@Tipopedido", t.Tipopedido);

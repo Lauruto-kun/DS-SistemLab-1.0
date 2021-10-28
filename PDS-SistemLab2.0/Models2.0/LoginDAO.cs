@@ -33,9 +33,9 @@ namespace PDS_SistemLab2._0.Models2._0
             try
             {
                 var query = conn.Query();
-                query.CommandText = "INSERT INTO exame  (login,senha) " + "VALUES (@Login,@Senha)";
+                query.CommandText = "INSERT INTO exame  (login,senha) " + "VALUES (@Logins,@Senha)";
 
-                query.Parameters.AddWithValue("@Login", t.Login);
+                query.Parameters.AddWithValue("@Logins", t.Logins);
                 query.Parameters.AddWithValue("@Senha", t.Senha);
 
 

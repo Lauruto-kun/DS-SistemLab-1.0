@@ -18,4 +18,10 @@
         <Button x:Name="login" Content="Voltar ao login" HorizontalAlignment="Left" Margin="607,164,0,0" VerticalAlignment="Top" Width="237" Height="53"   FontSize="16" Background="#FFDAD5D5" BorderBrush="#FF1F0D0D" Foreground="#FF0C0404" Click="login_Click"/>
 
     </Grid>
+    <Window.Background>
+        <LinearGradientBrush EndPoint="1,0.5" StartPoint="0,0.5">
+            <GradientStop Color="White" Offset="0" />
+            <GradientStop Color="Black" Offset="1" />
+        </LinearGradientBrush>
+    </Window.Background>
 </Window>
