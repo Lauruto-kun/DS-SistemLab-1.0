@@ -13,7 +13,8 @@ telefone_func int,
 numero_func int,
 cidade_func varchar(50),
 nome_func varchar(100),
-cep_func int
+cep_func int,
+datanas date
 );
  create table Usuario(
 id_usu int primary key not null auto_increment,
